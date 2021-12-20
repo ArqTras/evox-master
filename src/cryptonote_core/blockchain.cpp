@@ -90,9 +90,9 @@ static const struct {
  time_t time;
 } mainnet_hard_forks[] = {
  // version 1 from the start of the blockchain
- { 1, 0, 0, 1614248955 },
- { 15, 1, 0, 1614249955 },
- { 16, 4, 0, 1614250955 },
+ { 1, 0, 0, 1581800400 },
+ { 15, 1, 0, 1581806100 }
+// { 16, 470000, 2, 1640124000 },
 };
 
 static const struct {
@@ -102,9 +102,9 @@ static const struct {
  time_t time;
 } testnet_hard_forks[] = {
  // version 1 from the start of the blockchain
- { 1, 0, 0, 1614248955 },
- { 15, 1, 0, 1614249955 },
- { 16, 4, 0, 1614250955 },
+ { 1, 0, 0, 1581800400 },
+ { 15, 1, 0, 1581806100 },
+ { 16, 495200, 2, 1640124000 }
 };
 
 static const struct {
@@ -114,9 +114,9 @@ static const struct {
  time_t time;
 } stagenet_hard_forks[] = {
  // version 1 from the start of the blockchain
- { 1, 0, 0, 1614248955 },
- { 15, 1, 0, 1614249955 },
- { 16, 4, 0, 1614250955 },
+ { 1, 0, 0, 1581800400 },
+ { 15, 1, 0, 1581806100 },
+ { 16, 496200, 2, 1640124000 }
 };
 //------------------------------------------------------------------
 Blockchain::Blockchain(tx_memory_pool& tx_pool) :
