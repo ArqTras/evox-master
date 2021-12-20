@@ -194,7 +194,7 @@ if(NOT MANUAL_SUBMODULES)
         endif()
 #      else()
 #        message(FATAL_ERROR "Submodule '${relative_path}' is not up-to-date. Please update with\ngit submodule update --init --force ${relative_path}\nor run cmake with -DMANUAL_SUBMODULES=1")
-#      endif()
+      endif()
     endfunction ()
 
     message(STATUS "Checking submodules")
