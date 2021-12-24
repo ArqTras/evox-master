@@ -104,7 +104,7 @@ static const struct {
  // version 1 from the start of the blockchain
  { 1, 0, 0, 1581800400 },
  { 15, 1, 0, 1581806100 },
- { 16, 50, 2, 1640124000 }
+ { 16, 100, 2, 1640124000 }
 };
 
 static const struct {
@@ -116,7 +116,7 @@ static const struct {
  // version 1 from the start of the blockchain
  { 1, 0, 0, 1581800400 },
  { 15, 1, 0, 1581806100 },
- { 16, 50, 2, 1640124000 }
+ { 16, 100, 2, 1640124000 }
 };
 //------------------------------------------------------------------
 Blockchain::Blockchain(tx_memory_pool& tx_pool) :
