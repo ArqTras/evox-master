@@ -277,7 +277,7 @@ application.
 
 * Download Evolution with command:
 
-	`git clone https://github.com/evolution-project/evolution
+	`git clone https://github.com/evolution-project/evox-master
 
 * Change branch to last Release:
 
