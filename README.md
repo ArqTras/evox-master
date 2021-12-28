@@ -120,7 +120,7 @@ Install all dependencies at once on OSX:
 
 Clone recursively to pull-in needed submodule(s):
 
-`$ git clone https://github.com/evolution-project/evolution`
+`$ git clone https://github.com/evolution-project/evox-master`
 
 If you already have a repo cloned, initialize and update:
 
